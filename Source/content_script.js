@@ -1,3 +1,4 @@
+setTimeout(walk,1200,document.body);
 walk(document.body);
 
 function walk(node) 
@@ -57,6 +58,12 @@ function handleText(textNode)
 	v = v.replace(/\bVirus\b/g, "Sniffles");
 	v = v.replace(/\bViral\b/g, "gay");
 	v = v.replace(/\bviral\b/g, "gay");
+	v = v.replace(/\bW.H.O.\b/g, "global elites");
+	v = v.replace(/\bWHO\b/g, "WHOM");
+	v = v.replace(/\bhydroxychloroquine\b/g, "advil");
+	v = v.replace(/\bHydroxychloroquine\b/g, "asprin");
+	v = v.replace(/\bSARS-CoV-2\b/g, "WHY YES I AM A REDDITOR HOW DID YOU KNOW?");
+	v = v.replace(/\bSARS\b/g, "china scratchy spots");	
 	textNode.nodeValue = v;
 }
 
