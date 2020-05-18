@@ -46,6 +46,13 @@ function handleText(textNode)
 	v = v.replace(/\bCOVID-19\b/g, "6G");
 	v = v.replace(/\bCOVID\b/g, "CORONU");
 	v = v.replace(/\bcovid\b/g, "coronu");
+	v = v.replace(/\b#covid19\b/g, "#coronu666");
+	v = v.replace(/\b#coronavirus\b/g, "#coronuewwww");
+	v = v.replace(/\bcoronavirus\b/g, "coronuewwww");
+	v = v.replace(/\bCoronavirus\b/g, "coronuewwww");
+	v = v.replace(/\bCOVID-19\b/g, "spooky-1111");	
+	v = v.replace(/\b#slowthespread\b/g, "#be afraid");
+	v = v.replace(/\bCDC\b/g, "NFL");
 	
 	textNode.nodeValue = v;
 }
