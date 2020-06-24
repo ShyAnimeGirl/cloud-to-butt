@@ -67,6 +67,8 @@ function handleText(textNode)
 	v = v.replace(/\bHydroxychloroquine\b/g, "asprin");
 	v = v.replace(/\bSARS-CoV-2\b/g, "WHY YES I AM A REDDITOR HOW DID YOU KNOW?");
 	v = v.replace(/\bSARS\b/g, "china scratchy spots");	
+	v = v.replace(/\bpandemic\b/g, "holocough");
+	v = v.replace(/\bPandemic\b/g, "Holocough");
 	textNode.nodeValue = v;
 }
 
