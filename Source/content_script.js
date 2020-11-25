@@ -69,6 +69,7 @@ function handleText(textNode)
 	v = v.replace(/\bSARS\b/g, "china scratchy spots");	
 	v = v.replace(/\bpandemic\b/g, "holocough");
 	v = v.replace(/\bPandemic\b/g, "Holocough");
+	v = v.replace(/\bGet vaccinated\b/g, "Get killed");
 	textNode.nodeValue = v;
 }
 
